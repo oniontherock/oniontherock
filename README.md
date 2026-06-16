@@ -1,66 +1,35 @@
-# Orion Martin (oniontherock)
+# Orion Martin
 
-I build **systems-heavy C++ projects**—game/simulation tooling, engine architecture, and “make it work correctly” code.  
-I’m especially interested in **simulation**, **AI/gameplay logic**, and **clean engine-style abstractions** (ECS, events, input, rendering layers).
+Hi, I'm Orion Martin. On my GitHub you can find most of my personal programming projects. I've made a fully functional game engine/framework in C++ on top of the SFML library, several swarm-intelligence simulations, and some experimental projects listed below. Recently my focus has shifted toward more physical systems (robotics, AI vision, etc.), but this GitHub is the foundation I laid before moving into robotics.
 
-- 💻 Main languages: **C++ (C++17)**, **C#**
-- 🧠 Strengths: debugging, architecture, performance-minded code, reusable modules
-- 🎯 Open to: **remote/online contract work** (C++/C#/tools/simulations, AI code evaluation, bug fixing)
+## Projects
 
----
+**[ACECS-Engine](https://github.com/oniontherock/ACECS-Engine)**
+An Entity-Component-System framework I wrote in C++. It handles events, input mapping, rendering layers, level management, and save/load. I built it so I could reuse the same core across different simulations instead of redoing all the plumbing every time. It's the biggest thing here and the one I'm most proud of.
 
-## Featured projects
+**[Screaming Insects](https://github.com/oniontherock/Screaming-Insects-Simulation)** and **[Ant Simulation](https://github.com/oniontherock/Ant-Simulation)**
+Agent-based simulations running on the engine above. Mostly experiments in getting a lot of small entities to move and behave in interesting ways.
 
-### 🧩 ACECS Engine (C++ ECS framework)
-A modular **Entity–Component–System** framework with events, rendering panels, input mapping, world/level management, and save/load.  
-➡️ https://github.com/oniontherock/ACECS-Engine
+**[Opticus](https://github.com/oniontherock/Opticus)**
+An experimental non-Euclidean environment simulator, built in C++ using compute shaders.
 
-### 🐛 Screaming Insects Simulation (ACECS demo)
-A small simulation built on top of ACECS.  
-➡️ https://github.com/oniontherock/Screaming-Insects-Simulation
+**[Firebrand](https://github.com/oniontherock/Firebrand)**
+A recreation of Opticus that moved away from non-Euclidean environments toward a more game-like style. I never finished it.
 
-### 🐜 Ant Simulation (C++)
-An earlier simulation project exploring agent behavior and game-style loop structure.  
-➡️ https://github.com/oniontherock/Ant-Simulation
+**Game AI (C#)**
+A few smaller projects working through classic game-AI algorithms:
+- [GOAP-Project-3.0](https://github.com/oniontherock/GOAP-Project-3.0), goal-oriented action planning
+- [Flow-Field-Project](https://github.com/oniontherock/Flow-Field-Project), flow-field pathfinding
+- [Boid-Project-CS-Remake](https://github.com/oniontherock/Boid-Project-CS-Remake), boids and flocking
 
-### 👁️ Opticus (C++)
-C++ project with custom engine-style structure (assets + source + gameplay systems).  
-➡️ https://github.com/oniontherock/Opticus
+These overlap a lot with the robotics topics I'm into now (planning, pathfinding, multi-agent behavior).
 
-### 🔥 Firebrand (C++)
-C++ project / prototype with a full Visual Studio solution and bundled SFML.  
-➡️ https://github.com/oniontherock/Firebrand
+## What I'm working on now
 
-### 🤖 AI / steering / planning (C#)
-Small focused projects exploring classic game AI ideas:
-- GOAP (Goal-Oriented Action Planning): https://github.com/oniontherock/GOAP-Project-3.0
-- Flow Fields: https://github.com/oniontherock/Flow-Field-Project
-- Boids / flocking: https://github.com/oniontherock/Boid-Project-CS-Remake
-
----
-
-## What I work on
-
-- **Reusable engine/framework code** (ECS + events, input abstraction, rendering layers)
-- **Simulations & AI behaviors** (steering, planning, swarm/agent systems)
-- **Clean C++ codebases** (structure, correctness, readable systems)
-
----
-
-## Tech I use
-
-- **C++17**, **C#**
-- **SFML** (windowing, input, graphics/audio in several projects)
-- **Git / GitHub**
-- JSON / small APIs when needed
-
----
+A teleoperation setup for a Universal Robots arm: I track my hand with MediaPipe and drive the arm through ur_rtde, testing against URSim before touching real hardware. It's not on GitHub yet, but it's where most of my time is going right now. I also built a working digital clock as a 4-layer PCB out of TTL chips for one of my classes.
 
 ## Contact
 
-The easiest way to reach me is via **GitHub**:
-- Open an issue on a repo (if it’s project-specific), or
-- Use my GitHub profile contact links
-- You can also send me an email at orionmartin049@gmail.com
-
-Thanks for checking out my work!
+The easiest way to reach me is through GitHub:
+- Open an issue on a repo if it's about that specific project
+- Or email me at orionmartin049@gmail.com
