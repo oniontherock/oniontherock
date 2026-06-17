@@ -25,7 +25,7 @@ These days my focus has shifted from game development toward electronics and com
 
 - **[Pendulonium](https://github.com/oniontherock/Pendulonium)** — an arcade space brawler where your ship is two tethered balls swung through enemy fire (playable prototype).
 - **[Infernomancer](https://github.com/oniontherock/Infernomancer)** — catch wizards' fireballs with the mouse and sling them back to defend your crystal (playable prototype).
-- **[Ant Simulation](https://github.com/oniontherock/Ant-Simulation)** and **[Screaming Insects](https://github.com/oniontherock/Screaming-Insects-Simulation)** — agent-behavior simulations, and where ACECS started.
+- **[Ant Simulation](https://github.com/oniontherock/Ant-Simulation)** and **[Screaming Insects](https://github.com/oniontherock/Screaming-Insects-Simulation)** — agent-behavior simulations, and where ACECS started. The Ant Simulation is what gave me the inspiration to create ACECS, and the Screaming Insects Simulator was the very first real project created with ACECS.
 - **Game-AI studies in C# / Godot:** [Goal-Oriented Action Planning](https://github.com/oniontherock/GOAP-Project-3.0), [flow-field pathfinding](https://github.com/oniontherock/Flow-Field-Project), and [boids / flocking](https://github.com/oniontherock/Boid-Project-CS-Remake).
 - **[6D Cellular Automata](https://github.com/oniontherock/6D-cellular-automata)** — a six-dimensional cellular automaton stepped on the GPU with a compute shader; an experiment I'm honest about (very slow, and 6D is nearly impossible to visualize).
 
