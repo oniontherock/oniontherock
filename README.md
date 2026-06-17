@@ -21,7 +21,7 @@ These days my focus has shifted from game development toward electronics and com
 
 **Game-AI demos (C# / Godot)** — focused studies of classic techniques: [Goal-Oriented Action Planning](https://github.com/oniontherock/GOAP-Project-3.0), [flow-field pathfinding](https://github.com/oniontherock/Flow-Field-Project), and [boids / flocking](https://github.com/oniontherock/Boid-Project-CS-Remake).
 
-## Tech I reach for
+## My most used languages and engines/frameworks
 
 C++17 and C#, SFML for the C++ projects and Godot for the C# ones, and Git throughout.
 
