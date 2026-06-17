@@ -5,7 +5,7 @@ I taught myself to program by building games, engines, and simulations from scra
 
 Some of these projects are small and finished; others are ambitious prototypes I learned an enormous amount from, even where I didn't take them all the way. I've left them honest about what works and what was still in progress.
 
-These days my focus has shifted from game development toward electronics and computer engineering, and increasingly toward robotics — but the instinct is the same: build it yourself, and understand every layer.
+These days my focus has shifted from game development toward electronics and computer engineering, and increasingly toward robotics — but the instinct is the same: build it myself, and understand every layer.
 
 ## Selected work
 
