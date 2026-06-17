@@ -1,35 +1,30 @@
+[profile-README.md](https://github.com/user-attachments/files/29032107/profile-README.md)
 # Orion Martin
 
-Hi, I'm Orion Martin. On my GitHub you can find most of my personal programming projects. I've made a fully functional game engine/framework in C++ on top of the SFML library, several swarm-intelligence simulations, and some experimental projects listed below. Recently my focus has shifted toward more physical systems (robotics, AI vision, etc.), but this GitHub is the foundation I laid before moving into robotics.
+I taught myself to program by building games, engines, and simulations from scratch — mostly in **C++** and **C#**. Most of what's here is solo, exploratory work: I tend to start from a system I want to understand or an idea I haven't seen done before, then build the whole thing up from the foundations to see how far it goes.
 
-## Projects
+Some of these projects are small and finished; others are ambitious prototypes I learned an enormous amount from, even where I didn't take them all the way. I've left them honest about what works and what was still in progress.
 
-**[ACECS-Engine](https://github.com/oniontherock/ACECS-Engine)**
-An Entity-Component-System framework I wrote in C++. It handles events, input mapping, rendering layers, level management, and save/load. I built it so I could reuse the same core across different simulations instead of redoing all the plumbing every time. It's the biggest thing here and the one I'm most proud of.
+These days my focus has shifted from game development toward electronics and computer engineering, and increasingly toward robotics — but the instinct is the same: build it yourself, and understand every layer.
 
-**[Screaming Insects](https://github.com/oniontherock/Screaming-Insects-Simulation)** and **[Ant Simulation](https://github.com/oniontherock/Ant-Simulation)**
-Agent-based simulations running on the engine above. Mostly experiments in getting a lot of small entities to move and behave in interesting ways.
+## Selected work
 
-**[Opticus](https://github.com/oniontherock/Opticus)**
-An experimental non-Euclidean environment simulator, built in C++ using compute shaders.
+**[ACECS Engine](https://github.com/oniontherock/ACECS-Engine)** — a modular C++17 entity–component–system framework I wrote from scratch: events, panel-based rendering, input mapping, world/level management, game states, and save/load. It started as the engine for my ant simulation and grew into the foundation I reused across several later projects.
 
-**[Firebrand](https://github.com/oniontherock/Firebrand)**
-A recreation of Opticus that moved away from non-Euclidean environments toward a more game-like style. I never finished it.
+**[Opticus](https://github.com/oniontherock/Opticus)** — an experiment in non-Euclidean vision. The world is covered in grids that bend, move, and teleport in response to sight-rays cast by whatever is "looking" — the player sees a real rendered image, but the same machinery could let an NPC scan for objects or creatures instead of pixels. The vision system was my own design, and most of the shader work exists to make it run. It turned out too heavy to build a game on, which is what led to Firebrand.
 
-**Game AI (C#)**
-A few smaller projects working through classic game-AI algorithms:
-- [GOAP-Project-3.0](https://github.com/oniontherock/GOAP-Project-3.0), goal-oriented action planning
-- [Flow-Field-Project](https://github.com/oniontherock/Flow-Field-Project), flow-field pathfinding
-- [Boid-Project-CS-Remake](https://github.com/oniontherock/Boid-Project-CS-Remake), boids and flocking
+**[Firebrand](https://github.com/oniontherock/Firebrand)** — the game-focused successor to Opticus, with the non-Euclidean vision stripped out. A squad survival-horror prototype with working AI pathfinding, basic enemy behavior, and a lot of deliberately unsettling monster design. Several systems run; others — a customizable weapon system, a procedural inverse-kinematics animation system — were designed and partly built.
 
-These overlap a lot with the robotics topics I'm into now (planning, pathfinding, multi-agent behavior).
+**[Ant Simulation](https://github.com/oniontherock/Ant-Simulation)** — an earlier agent-behavior simulation, and the original home of the ACECS engine.
 
-## What I'm working on now
+**[Screaming Insects Simulation](https://github.com/oniontherock/Screaming-Insects-Simulation)** — a small simulation built on ACECS.
 
-A teleoperation setup for a Universal Robots arm: I track my hand with MediaPipe and drive the arm through ur_rtde, testing against URSim before touching real hardware. It's not on GitHub yet, but it's where most of my time is going right now. I also built a working digital clock as a 4-layer PCB out of TTL chips for one of my classes.
+**Game-AI demos (C# / Godot)** — focused studies of classic techniques: [Goal-Oriented Action Planning](https://github.com/oniontherock/GOAP-Project-3.0), [flow-field pathfinding](https://github.com/oniontherock/Flow-Field-Project), and [boids / flocking](https://github.com/oniontherock/Boid-Project-CS-Remake).
+
+## Tech I reach for
+
+C++17 and C#, SFML for the C++ projects and Godot for the C# ones, and Git throughout.
 
 ## Contact
 
-The easiest way to reach me is through GitHub:
-- Open an issue on a repo if it's about that specific project
-- Or email me at orionmartin049@gmail.com
+Reachable by email at orionmartin049@gmail.com, or by opening an issue on the relevant repository.
