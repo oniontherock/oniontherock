@@ -17,7 +17,7 @@ These days my focus has shifted from game development toward electronics and com
 
 **[Opticus](https://github.com/oniontherock/Opticus)** — an experiment in non-Euclidean vision. The world is covered in grids that bend, move, and teleport in response to sight-rays cast by whatever is "looking." The vision system was my own design, and most of the shader work exists to make it run. It proved too heavy to build a game on, which led to Firebrand.
 
-**[Firebrand](https://github.com/oniontherock/Firebrand)** — the game-focused successor to Opticus, with the non-Euclidean vision removed. A squad survival-horror prototype with working AI pathfinding and a lot of deliberately unsettling monster design.
+**[Firebrand](https://github.com/oniontherock/Firebrand)** — the game-focused successor to Opticus, with the non-Euclidean vision removed. A squad survival-horror prototype with working AI pathfinding. There was a massive plan for the game, but it was never finished (if you want more details about what the game was planned to be, feel free to send me an email).
 
 **[ACECS Engine](https://github.com/oniontherock/ACECS-Engine)** — a modular C++17 entity–component–system framework I wrote from scratch: events, rendering, input, world/state management, and save/load. It began as the engine for my ant simulation and became the foundation I reused across later projects.
 
