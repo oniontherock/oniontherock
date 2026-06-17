@@ -29,7 +29,7 @@ These days my focus has shifted from game development toward electronics and com
 - **Game-AI studies in C# / Godot:** [Goal-Oriented Action Planning](https://github.com/oniontherock/GOAP-Project-3.0), [flow-field pathfinding](https://github.com/oniontherock/Flow-Field-Project), and [boids / flocking](https://github.com/oniontherock/Boid-Project-CS-Remake).
 - **[6D Cellular Automata](https://github.com/oniontherock/6D-cellular-automata)** — a six-dimensional cellular automaton stepped on the GPU with a compute shader; an experiment I'm honest about (very slow, and 6D is nearly impossible to visualize).
 
-## Tech I reach for
+## My most used languages and frameworks
 
 C++17 and C#, SFML for the C++ projects and Godot for the C# ones, GLSL shaders, and Git throughout.
 
